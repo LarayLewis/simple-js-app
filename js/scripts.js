@@ -4,5 +4,5 @@ let pokemonList = [
     {name: 'Starfish', type: 'water', height:3}
 ];
 for (let i=0; i < pokemonList.length; i++) {
-    document.write(pokemonList.name);
+    document.write(pokemonList.name+ pokemonList.height);
 }
